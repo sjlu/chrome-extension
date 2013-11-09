@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Substitutions",
+  "description": "We will make your text more fun.",
+  "version": "1.0",
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "js": ["jquery.js", "script.js"],
+    "run_at": "document_end"
+  }]
+}
